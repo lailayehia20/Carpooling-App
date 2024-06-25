@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405967633761",
+    "project_id": "carpooling-abade",
+    "storage_bucket": "carpooling-abade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405967633761:android:6a867701872aeb00d0d920",
+        "android_client_info": {
+          "package_name": "com.example.project_part1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARVZ4NzzHtweRiJkW92xifZlc4CyMQ3wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
