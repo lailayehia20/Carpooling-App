@@ -39,59 +39,59 @@ Return Ride: Starts at 5:30 pm from the Faculty of Engineering campus to various
 
 # User Interface
 ## Driver User Interface:
-The driver chooses either to sign in or sign up.
+### The driver chooses either to sign in or sign up.
 ![Screenshot 1](ui%20screenshots/s1.png)
 
 
 
-If he clicks on the sign in, he can sign in with a previous account he created.
+### If he clicks on the sign in, he can sign in with a previous account he created.
 ![Screenshot 2](ui%20screenshots/s2.png)
 
 
 
 
-If he clicks on sign up, he can create new account.
+### If he clicks on sign up, he can create new account.
 ![Screenshot 3](ui%20screenshots/s3.png)
 
 
 
-He then chooses whether he wants to ride from the faculty or to the faculty
+### He then chooses whether he wants to ride from the faculty or to the faculty
 ![Screenshot 4](ui%20screenshots/s4.png)
 
 
 
-If he chooses to ride to the faculty, the following screen is shown. In the select time field the only accepted time is 7:30 am.
+### If he chooses to ride to the faculty, the following screen is shown. In the select time field the only accepted time is 7:30 am.
 ![Screenshot 5](ui%20screenshots/s5.png)
 
 
 
-If he chooses to ride from the faculty the following screen will be visible to him. In the select time field the only accepted time is 5:30 pm.
+### If he chooses to ride from the faculty the following screen will be visible to him. In the select time field the only accepted time is 5:30 pm.
 ![Screenshot 6](ui%20screenshots/s6.png)
 
 
 
 
-The following screen shows the driver profile screen.
+### The following screen shows the driver profile screen.
 ![Screenshot 7](ui%20screenshots/s7.png)
 
 
 
-The following screen shows the driver requests screen
+### The following screen shows the driver requests screen
 ![Screenshot 8](ui%20screenshots/s8.png)
 
 
 
 ## Student User Interface:
-The user has the same sign in, sign up, profile and the main route selection page (to the faculty => shows him all the rides offered heading to the faculty or from the faculty => shows him all the rides offered heading back from the faculty).
-The following screen shows the list of available rides to the faculty. There is a similar one but for the rides from the faculty.
+### The user has the same sign in, sign up, profile and the main route selection page (to the faculty => shows him all the rides offered heading to the faculty or from the faculty => shows him all the rides offered heading back from the faculty).
+### The following screen shows the list of available rides to the faculty. There is a similar one but for the rides from the faculty.
 ![Screenshot 9](ui%20screenshots/s9.png)
 
 
-The following screen shows the cart with the requests made by the user and the status of each request.
+### The following screen shows the cart with the requests made by the user and the status of each request.
 ![Screenshot 10](ui%20screenshots/s10.png)
 
 
-The following screen shows the order history screen.
+### The following screen shows the order history screen.
 ![Screenshot 11](ui%20screenshots/s11.png)
 # Database:
 ## Driver:
