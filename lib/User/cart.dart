@@ -81,7 +81,7 @@ class _CartState extends State<Cart> {
                                 _showSnackBar('The ride has been cancelled by the driver.');
                               }
                             },
-                            style: ElevatedButton.styleFrom(primary: const Color.fromARGB(255, 75, 12, 131)),
+                            style: ElevatedButton.styleFrom(backgroundColor: const Color.fromARGB(255, 75, 12, 131)),
                             child: Text('Proceed to payment'),
                           ),
                           SizedBox(height: 10),

@@ -271,7 +271,7 @@ class _SignUpState extends State<SignUp> {
                       }
                     }
                   },
-                  style: ElevatedButton.styleFrom(primary: const Color.fromARGB(255, 75, 12, 131)),
+                  style: ElevatedButton.styleFrom(backgroundColor: const Color.fromARGB(255, 75, 12, 131)),
                   child: const Text("Sign Up"),
                 ),
               ],

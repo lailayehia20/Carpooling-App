@@ -137,7 +137,7 @@ Future<void> saveRideDetailsToFirestore(Ride ride) async {
                             Text('Time: ${data['time']}', style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                             SizedBox(height: 10),
                             ElevatedButton(
-                              style: ElevatedButton.styleFrom(primary: Color.fromARGB(255, 75, 12, 131)),
+                              style: ElevatedButton.styleFrom(backgroundColor: Color.fromARGB(255, 75, 12, 131)),
                               onPressed: () async{
                                 Ride ride = Ride(
                                   pickup: data['pickup'],

@@ -28,13 +28,13 @@ class dRoute extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    ElevatedButton(style: ElevatedButton.styleFrom(primary: Color.fromARGB(255, 75, 12, 131) ),
+                    ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Color.fromARGB(255, 75, 12, 131) ),
                                     onPressed: (){Navigator.push( context,
                         MaterialPageRoute(builder: (context) => DriverToFaculty()), // Navigate to second screen
                       );},  
                       child: Text("To the faculty")),
                       SizedBox(width: 40,),
-                     ElevatedButton(style: ElevatedButton.styleFrom(primary: Color.fromARGB(255, 75, 12, 131) ),
+                     ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Color.fromARGB(255, 75, 12, 131) ),
                       onPressed: (){Navigator.push( context,
                         MaterialPageRoute(builder: (context) => DriverFromFaculty()), // Navigate to second screen
                       );},  
