@@ -24,13 +24,13 @@ class HomePage extends StatelessWidget {
                                     onPressed: (){Navigator.push( context,
                         MaterialPageRoute(builder: (context) => SignIn()), // Navigate to second screen
                       );},  
-                      child: Text("Sign in")),
+                      child: Text("Sign in",style: TextStyle(color: Colors.white),),),
                       SizedBox(width: 40,),
                      ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Color.fromARGB(255, 75, 12, 131) ),
                       onPressed: (){Navigator.push( context,
                         MaterialPageRoute(builder: (context) => SignUp()), // Navigate to second screen
                       );},  
-                      child: Text("Sign up")),
+                      child: Text("Sign up",style: TextStyle(color: Colors.white),),),
               
                   ],
                 ),

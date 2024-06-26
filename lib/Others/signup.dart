@@ -47,7 +47,7 @@ class _SignUpState extends State<SignUp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Sign up"),
+        title: const Text("Sign up",style: TextStyle(color: Colors.white),),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 75, 12, 131),
       ),
@@ -205,13 +205,6 @@ class _SignUpState extends State<SignUp> {
                         });
                         Reading_Database();
                         setState(() {});
-                          // await DatabaseHelper.instance.insertUser({
-                          //     //'id': uid,
-                          //     'name': nameController.text,
-                          //     'mobile': mobileController.text,
-                          //     'email': emailController.text,
-                          //     'password': _passwordController.text,
-                          //   });
                            
                         } else {
                           FirebaseAuth.instance
@@ -272,8 +265,8 @@ class _SignUpState extends State<SignUp> {
                     }
                   },
                   style: ElevatedButton.styleFrom(backgroundColor: const Color.fromARGB(255, 75, 12, 131)),
-                  child: const Text("Sign Up"),
-                ),
+                  child: const Text("Sign Up",style: TextStyle(color: Colors.white),),),
+                
               ],
             ),
           ),
