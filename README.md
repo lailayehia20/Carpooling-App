@@ -36,3 +36,25 @@ Users can create profiles with essential information, enhancing trust and accoun
 # Pilot Project Information
 Morning Ride: Starts at 7:30 am from various locations to the Faculty of Engineering campus.
 Return Ride: Starts at 5:30 pm from the Faculty of Engineering campus to various locations.
+
+# User Interface
+## Driver User Interface:
+The driver chooses either to sign in or sign up.
+If he clicks on the sign in, he can sign in with a previous account he created.
+If he clicks on sign up, he can create new account.
+He then chooses whether he wants to ride from the faculty or to the faculty
+If he chooses to ride to the faculty, the following screen is shown. In the select time field the only accepted time is 7:30 am.
+If he chooses to ride from the faculty the following screen will be visible to him. In the select time field the only accepted time is 5:30 pm.
+The following screen shows the driver profile screen.
+The following screen shows the driver requests screen
+## Student User Interface:
+The user has the same sign in, sign up, profile and the main route selection page (to the faculty => shows him all the rides offered heading to the faculty or from the faculty => shows him all the rides offered heading back from the faculty).
+The following screen shows the list of available rides to the faculty. There is a similar one but for the rides from the faculty.
+The following screen shows the cart with the requests made by the user and the status of each request.
+The following screen shows the order history screen.
+# Database:
+## Driver:
+There is a Drivers collection that contains a list of all the drivers available. For each driver there are 2 collections RidesToFaculty and RidesFromFaculty. These collections store the rides offered by the driver along with the driver id and the ride id.
+## User:
+There is Users collection which contains a list of all the users available in the system. For each user there are 2 collections the Requests collection which contains details of all the rides the user requested and the second collection is the CreditCardDetails collection which stores the details of the credit card of the user
+
