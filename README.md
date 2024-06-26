@@ -17,7 +17,6 @@ Operated by students for students, fostering a sense of community and understand
 Access is granted only to users with @eng.asu.edu.eg accounts, creating a secure and exclusive environment.
 ## User Profiles
 Users can create profiles with essential information, enhancing trust and accountability within the community.
-# Example of a Numbered List in a README
 
 # Steps to Use Carpool
 
